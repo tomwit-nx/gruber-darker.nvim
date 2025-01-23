@@ -216,6 +216,6 @@ M.highlights.tag_delimiter = Highlight.new("@tag.delimiter", { link = vim_hl.del
 
 
 -- YAML
-M.highlights.yaml_key = Highlight.new("@field.yaml", { fg = gruber_hl.yellow_bold })
+M.highlights.yaml_key = Highlight.new("@field", { fg = gruber_hl.yellow_bold })
 
 return M

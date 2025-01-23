@@ -215,6 +215,7 @@ M.highlights.tag_attribute = Highlight.new("@tag.attribute", { link = M.highligh
 M.highlights.tag_delimiter = Highlight.new("@tag.delimiter", { link = vim_hl.delimiter })
 
 -- YAML
-M.highlights.tag = Highlight.new("@property.yaml", { link = gruber_hl.yellow_bold })
+M.highlights.property = Highlight.new("@property.yaml", { link = gruber_hl.yellow_bold })
+M.highlights.field = Highlight.new("@field.yaml", { link = gruber_hl.yellow_bold })
 
 return M
